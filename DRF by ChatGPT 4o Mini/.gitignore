@@ -1,0 +1,25 @@
+# Ignore the Conda virtual environment directory
+myenv/  # Adjust the name if your environment has a different name
+
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore environment-specific files
+env/
+venv/
+
+# Ignore database files (e.g., SQLite)
+db.sqlite3
+
+# Ignore Django's secret key file (if applicable)
+.env
+
+# Ignore log files
+*.log
+
+# Ignore compiled code
+*.pyo
+
+# Ignore system-specific files
+.DS_Store

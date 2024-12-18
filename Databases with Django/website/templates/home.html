@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+    
+        <h2>Loading DATA from the Members Model of the Database in models.py of our Project</h2>
+
+        {% for item in all %}
+        <strong>Name: {{item.fname}} {{item.lname}} </strong> <br>
+        Email:{{item.email}} <br>
+        Age:{{item.age}} <br>
+        <hr> <br>
+        {% endfor %}
+{% endblock %}

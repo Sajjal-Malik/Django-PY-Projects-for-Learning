@@ -1,0 +1,100 @@
+{% extends 'base/base.html' %}
+{% load static %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'css/main.css' %}">
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card card-body" id="profile-wrapper">
+                <img id="profile-pic" src="{% static 'images/myphoto.jpg' %}" alt="">
+                <br>
+                <h2>SAJJAL MALIK</h2>
+                <h5>Aspiring Professional</h5>
+                <p>I love Coding and Hacking!</p>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="card card-body">
+                <h2>My First Experience as Django Developer</h2>
+                <h5>At CyberSphere Innovations.</h5>
+                <p> Developed and maintained a Django-based content management system, improving content publishing
+                    efficiency by 30% and supporting a 15% increase in web traffic.
+                    Automated testing processes using Selenium and pytest, reducing bug resolution time by 40% and
+                    improving overall code reliability.
+                    Participated in agile development sprints, contributing to a 20% increase in project delivery speed
+                    and fostering a collaborative team environment.
+                    Designed and launched a real-time analytics dashboard using Django and React, enabling stakeholders
+                    to make data-driven decisions and increasing user engagement by 35%.
+                    Optimized database queries and implemented caching strategies, resulting in a 50% reduction in page
+                    load times and improved user satisfaction scores.
+                    Collaborated with product managers to integrate AI-driven features, enhancing the platform's
+                    personalization capabilities and increasing user retention by 20%.
+                    Led a cross-functional team to develop a scalable e-commerce platform using Django, increasing
+                    transaction speed by 40% and boosting sales conversion rates by 25%.
+                    Architected and implemented a microservices-based architecture, reducing system downtime by 60% and
+                    improving deployment efficiency by 50%.
+                    Mentored a team of junior developers, enhancing their coding skills and reducing code review time by
+                    30% through effective training sessions and code quality standards.</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card card-body">
+                <h4>SKILLS & COMPETENCIES</h4>
+                <ul>
+                    <li>Python programming</li>
+                    <li>Django web framework</li>
+                    <li>Database design and optimization</li>
+                    <li>Scalability and performance optimization
+                    <li>Unit and integration testing</li>
+                    <li>Debugging and troubleshooting</li>
+                    <li>Code review and documentation</li>
+                    <li>Collaboration and communication</li>
+                    <li>HTML, CSS, and JavaScript</li>
+                    <li>Git version control</li>
+                    <li>Agile development methodologies</li>
+                    <li>Continuous integration and deployment (CI/CD)</li>
+                    <li>Cloud platforms (AWS, Azure, or Google Cloud)</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card card-body">
+                <h4>COURSES / CERTIFICATIONS</h4>
+                Django Developer Certificate (DDC)
+                <strong>Django Software Foundation</strong>
+                Python Web Developer (PWD) Certification
+                <strong>Django Software Foundation</strong>
+                Professional Python Web Developer (PPWD) Certification
+                <strong>Python Institute</strong>
+                Microsoft Certified: Python Developer Associate
+                <strong>Microsoft</strong>
+                Certified Entry-Level Python Programmer (PCEP)
+                <strong>Python Institute</strong>
+                AWS Certified Developer - Associate
+                <strong>Amazon Web Services (AWS)</strong>
+                Data Structures and Algorithms using Python
+                <strong>Coursera</strong>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="card card-body">
+            <h3>Education</h3>
+            Bachelor of Science in Computer Science with a focus on web development or software engineering.
+            2016 - 2020
+            <strong>Rochester Institute of Technology, Rochester, NY</strong>
+            Web Development or Software Engineering.
+            Information Systems
+        </div>
+    </div>
+</div>
+<br>
+
+
+{% endblock content %}
